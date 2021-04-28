@@ -53,7 +53,8 @@ There are 255 characters defined: Index,Name,Pattern.
 * Index - AscII code index. 
 * Name -Character name.
 * Pattern - 8 integers holding the 5 pixels for the 5x8 character definition.
-Example:
+
+Example Character A with Index 65
 ```
 65:A:14,17,17,17,31,17,17,0
 ```
