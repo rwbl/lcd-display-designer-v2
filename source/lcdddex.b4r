@@ -1,0 +1,33 @@
+#Region Notes
+' lcdex.b4r
+' B4R LCD Text example 
+' Tested with Arduino UNO, MEGA and I2C LCD Display 20x4 (LCD2004)
+' Additional Libraries: rLiquidCrystalI2CEx for DFRobot I2C LCD displays (see www.b4x.com >B4R Forum >B4R Libraries)
+' Wiring: Arduino = LCD I2C: GND = GND,5v = VCC,SDA = SDA,SCL = SCL
+#End Region
+
+#Region Project Attributes
+	#AutoFlushLogs: True
+	#CheckArrayBounds: True
+	#StackBufferSize: 300
+#End Region
+
+Sub Process_Globals
+	Public serialLine As Serial
+	Private serialLineBaudRate As ULong = 115000
+	Private lcd As LiquidCrystalI2CEX
+#LCDCUSTOMCHARSDEFINE#
+End Sub
+
+Private Sub AppStart
+	serialLine.Initialize(serialLineBaudRate)
+	Log("AppStart")
+	'Init the LCD: Address (1602 = 0x3F,2004 = 0x27), Columns, Rows
+	lcd.Initialize(0x27, 20, 4)
+	'lcd.Initialize(0x3F, 16, 2)
+#LCDCUSTOMCHARSCREATE#
+	'Turn the backlight on (default is turned off)
+	lcd.Backlight = True
+	'Write the code to display the text over the LCD rows
+#LCDTEXT#
+End Sub
