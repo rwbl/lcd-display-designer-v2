@@ -2,9 +2,11 @@
 Design layouts for 20x4 or 16x2 LCD Displays (with HD44780 controller) connected to Arduino, Raspberry Pi or other.
 
 **Main Screen**
+
 ![lcddd-01](https://user-images.githubusercontent.com/47274144/116362726-a8c7cf00-a802-11eb-87ab-3deb46249740.png)
 
 **Code Viewer with CCP generated code from the LCD layout**
+
 ![lcddd-02](https://user-images.githubusercontent.com/47274144/116362727-a9606580-a802-11eb-9bf3-e4b679505d8e.png)
 
 ## Functionality
