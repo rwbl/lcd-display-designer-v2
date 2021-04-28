@@ -71,7 +71,7 @@ Example Battery with Index 0:
 ```
 
 There are some custom characters defined but can be changed as required.
-Hint: The Lazarus application [lcd-custom-char-maker-v2](http://...) is a handy tool to create & save custom characters.
+Hint: The Lazarus application [lcd-custom-char-maker-v2](https://github.com/rwbl/lcd-custom-char-maker-v2) is a handy tool to create & save custom characters.
 
 The characters with index > 127 are extended table characters. Not all are loaded (named NN).
 
