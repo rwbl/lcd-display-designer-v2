@@ -1161,7 +1161,7 @@ begin
         CharType  := TypeCustom;
         CharIndex := jsonData.FindPath(Format('%s.index',[id])).AsInteger;
         CharPattern := jsonData.FindPath(Format('%s.pattern',[id])).AsString;
-        StringGridLCDTableChars.Cells[0, i] := CharName;
+        StringGridLCDTableChars.Cells[0, i+1] := CharName;
       end;
     end;
     // Load the characters
