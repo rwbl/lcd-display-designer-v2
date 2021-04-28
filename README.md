@@ -54,7 +54,7 @@ There are 255 characters defined: Index,Name,Pattern.
 * Name -Character name.
 * Pattern - 8 integers holding the 5 pixels for the 5x8 character definition.
 
-Example Character A with Index 65
+Example Character A with Index 65:
 ```
 65:A:14,17,17,17,31,17,17,0
 ```
@@ -64,7 +64,8 @@ If making changes while the application is running, restart the application to l
 Checkout the definition file and make changes as required.
 
 The characters with index 0-7 are custom characters. Max 8 custom characters can be defined.
-Example:
+
+Example Battery with Index 0:
 ```
 0:Battery:14,27,17,17,17,17,17,31
 ```
