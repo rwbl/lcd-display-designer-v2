@@ -3,7 +3,7 @@ Design layouts for 20x4 or 16x2 LCD Displays (with HD44780 controller) connected
 
 **Main Screen**
 
-![lcddd-01](https://user-images.githubusercontent.com/47274144/116362726-a8c7cf00-a802-11eb-87ab-3deb46249740.png)
+![lcddd-01](https://user-images.githubusercontent.com/47274144/116393860-73cb7480-a822-11eb-958f-e413a3b27f28.png)
 
 **Code Viewer with CCP generated code from the LCD layout**
 
