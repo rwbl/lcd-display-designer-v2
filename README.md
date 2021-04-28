@@ -1,7 +1,8 @@
 # LCD-Display-Designer-v2
 Design layouts for 20x4 or 16x2 LCD Displays (with HD44780 controller) connected to Arduino, Raspberry Pi or other.
 
-<ADD ACREENSHOT>
+![lcddd-01](https://user-images.githubusercontent.com/47274144/116362505-656d6080-a802-11eb-84cc-ed0fca3e074d.png)
+![lcddd-02](https://user-images.githubusercontent.com/47274144/116362508-6605f700-a802-11eb-817b-b5e7837d6502.png)
 
 ## Functionality
 * Design LCD display layouts for 20x4 (20 columns, 4 rows) or 16x2 displays (16 columns, 2 rows).
