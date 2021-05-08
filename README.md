@@ -11,6 +11,7 @@ Design layouts for 20x4 or 16x2 LCD Displays (with HD44780 controller) connected
 * Insert characters from the HD44780 character table list - defined in an external file with 255 characters AscII code & pixel pattern.
 * Save / open the display layout to / from a textfile located in the application folder.
 * Generate simple code examples for B4R, CPP or Python Tinkerforge.
+
 **Developed for personal use only under the GNU GENERAL PUBLIC LICENSE Version 3.**
 
 ## Development
