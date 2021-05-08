@@ -1,13 +1,7 @@
 # LCD-Display-Designer-v2
 Design layouts for 20x4 or 16x2 LCD Displays (with HD44780 controller) connected to Arduino, Raspberry Pi or other.
 
-**Main Screen**
-
-![lcddd-01](https://user-images.githubusercontent.com/47274144/116393860-73cb7480-a822-11eb-958f-e413a3b27f28.png)
-
-**Code Viewer with CCP generated code from the LCD layout**
-
-![lcddd-02](https://user-images.githubusercontent.com/47274144/116362727-a9606580-a802-11eb-9bf3-e4b679505d8e.png)
+<ADD ACREENSHOT>
 
 ## Functionality
 * Design LCD display layouts for 20x4 (20 columns, 4 rows) or 16x2 displays (16 columns, 2 rows).
@@ -44,7 +38,11 @@ The template to generate the code is lcdddex.py.
 * Libraries: rLiquidCrystal_I2C.zip, liquidcrystali2c.b4r
 
 ## Install
-Unpack the ZIP archive to a folder of choice.
+### Application
+Unpack the ZIP archive **lcddd.zip** to a folder of choice and start ***lcddd.exe***.
+
+### Lazarus Source
+Unpack the master ZIP archive to a folder of choice.
 Load the Lazarus project file **lcddd.lpi** in the Lazarus IDE and build.
 
 ## LCD Table Characters
@@ -53,8 +51,7 @@ There are 255 characters defined: Index,Name,Pattern.
 * Index - AscII code index. 
 * Name -Character name.
 * Pattern - 8 integers holding the 5 pixels for the 5x8 character definition.
-
-Example Character A with Index 65:
+Example:
 ```
 65:A:14,17,17,17,31,17,17,0
 ```
@@ -64,14 +61,13 @@ If making changes while the application is running, restart the application to l
 Checkout the definition file and make changes as required.
 
 The characters with index 0-7 are custom characters. Max 8 custom characters can be defined.
-
-Example Battery with Index 0:
+Example:
 ```
 0:Battery:14,27,17,17,17,17,17,31
 ```
 
 There are some custom characters defined but can be changed as required.
-Hint: The Lazarus application [lcd-custom-char-maker-v2](https://github.com/rwbl/lcd-custom-char-maker-v2) is a handy tool to create & save custom characters.
+Hint: The Lazarus application [lcd-custom-char-maker-v2](http://...) is a handy tool to create & save custom characters.
 
 The characters with index > 127 are extended table characters. Not all are loaded (named NN).
 
